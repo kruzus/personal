@@ -1,7 +1,3 @@
 export const About = () => {
-    return(
-        <>
-        About
-        </>
-    )
-}
+  return <>About</>;
+};

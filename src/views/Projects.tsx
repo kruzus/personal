@@ -1,7 +1,3 @@
 export const Projects = () => {
-    return(
-        <>
-        Projects
-        </>
-    )
-}
+  return <>Projects</>;
+};

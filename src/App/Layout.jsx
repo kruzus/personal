@@ -1,9 +1,9 @@
-import {Navbar} from "../components/Navbar";
+import { Navbar } from "../components/Navbar";
 
 export const Layout = () => {
-    return(
-        <>
-        <Navbar />
-        </>
-    )
-}
+  return (
+    <>
+      <Navbar />
+    </>
+  );
+};
