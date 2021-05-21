@@ -4,18 +4,11 @@ export const Projects = () => {
   return (
     <>
       <Wrapper>
-        
-        <Post 
-        heading="Welcome to projects!!" 
+        <Post heading="Welcome to projects!!" body="Welcome to my webpage." />
 
-        body="Welcome to my webpage." 
-        />
-
-      <Post 
-        
-        heading="Stuff..."
-        
-        body="
+        <Post
+          heading="Stuff..."
+          body="
         In this example we are learning React, Axios and other stuff
         In this example we are learning React, Axios and other stuff
         In this example we are learning React, Axios and other stuff
@@ -52,9 +45,8 @@ export const Projects = () => {
         In this example we are learning React, Axios and other stuff
         In this example we are learning React, Axios and other stuff
         
-        ." 
+        ."
         />
-
       </Wrapper>
     </>
   );

@@ -1,37 +1,35 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 .postcard {
-  
-background-color: rgb(246, 246, 246);
-padding: 1rem; 
-margin-bottom: 3rem;
+  background-color: rgb(245, 245, 245);
+  padding: 1rem;
+  margin-bottom: 3rem;
 
+  -webkit-box-shadow: 0px 0px 17px 7px #f5f5f5;
+  box-shadow: 0px 0px 17px 7px #f5f5f5;
 
-
--webkit-box-shadow: 0px 0px 17px 7px #eeeeee;
-box-shadow: 0px 0px 17px 7px #eeeeee;
-
-p {
-  font-size: larger;
-  background-color: rgb(246, 246, 246);
-}
-
+  p {
+    font-size: 1.4em;
+  }
 }
 
 .noselect {
-  -webkit-user-select: none;    /* Safari */
-  -webkit-touch-callout: none;  /* iOS Safari */
-  -khtml-user-select: none;     /* Konqueror HTML */
-  -ms-user-select: none;        /* Internet Explorer/Edge */
-  -moz-user-select: none;       /* Old versions of Firefox */
-   user-select: none; 
+  -webkit-user-select: none; /* Safari */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  -moz-user-select: none; /* Old versions of Firefox */
+  user-select: none;
 }
 
 .footer {
