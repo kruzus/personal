@@ -50,7 +50,7 @@ export const Navbar = () => {
 };
 
 function NoMatch() {
-  let location = useLocation();
+  const location = useLocation();
   return (
     <>
       No match for <code>{location.pathname}</code>
