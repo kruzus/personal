@@ -8,6 +8,11 @@ export const Home = () => {
           heading="Welcome!"
           body="Welcome to my page. Find more about me in About and for my projects in the Projects tab!"
         />
+
+        <Post
+          heading="Notice.."
+          body="I will be adding stuff to my site. Here we go."
+        />
       </Wrapper>
     </>
   );
