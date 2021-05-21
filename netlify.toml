@@ -1,2 +1,0 @@
-[BUILD]
-    CI = yarn run build

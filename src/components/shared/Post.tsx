@@ -1,16 +1,21 @@
+
+
 export const Post = (props: PostProp) => {
-  const { body, date, heading } = props;
+  const { body,  heading } = props;
   return (
     <>
-      <h1>{heading}</h1>
+    <div className="postcard noselect">
+      <h1 style={{
+  fontSize: "2rem",
+  color: "#0b2661",
+}}>{!heading ? "Heading NOT SET" : heading}</h1>
       <p>{body}</p>
-      <span>{date ? date : "Date not set."}</span>
+      </div>
     </>
   );
 };
 
 type PostProp = {
-  heading: string;
-  body: string;
-  date?: Date | null | string;
+  heading?: string | null;
+  body?: string;
 };
