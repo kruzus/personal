@@ -8,44 +8,10 @@ export const Projects = () => {
 
         <Post
           heading="Stuff..."
-          body="
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuff
-
-
-
-        In this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuffIn this example we are learning React, Axios and other stuff
-
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        In this example we are learning React, Axios and other stuff
-        
-        ."
+          body={`
+          I am working on a CRUD project but that is going slow. For now I made few apps using free
+          open API's that lets me use their data without the API key.
+          `}
         />
       </Wrapper>
     </>

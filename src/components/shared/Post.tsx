@@ -1,23 +1,27 @@
 export const Post = (props: PostProp) => {
-  const { body, heading } = props;
+  const { body, heading, other } = props;
   return (
     <>
-      <div className="postcard noselect">
+      <div className="postcard">
         <h1
           style={{
             fontSize: "2rem",
             color: "#0b2661",
+            textAlign: "center"
           }}
         >
-          {!heading ? "Heading NOT SET" : heading}
+          {!heading ? "NOT SET" : heading}
         </h1>
         <p>{body}</p>
+        <p>{!other ? null : other}</p>
       </div>
     </>
   );
 };
 
 type PostProp = {
-  heading?: string | null;
+  heading?: string;
   body?: string;
+  other?: string
+  
 };
