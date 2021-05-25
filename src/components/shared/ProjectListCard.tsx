@@ -1,7 +1,6 @@
 
-
 export const ProjectListCard = () => {
-
+    
     const data: ProjectItemProp[] = [{
         id: 0,
         imageUrl: "awdawd",
@@ -29,7 +28,6 @@ export const ProjectListCard = () => {
 
 ]
 
-    
 
     return(
         <>
