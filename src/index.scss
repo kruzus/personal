@@ -16,6 +16,8 @@ html {
 $postcardBG: rgb(246, 246, 246);
 $postcardShadowBG: #ebebeb;
 
+$postcardShadowBG2: #e0e0e0;
+
 .postcard {
   background-color: $postcardBG;
   padding: 1rem;
@@ -23,10 +25,15 @@ $postcardShadowBG: #ebebeb;
 
   -webkit-box-shadow: 0px 0px 17px 7px $postcardShadowBG;
   box-shadow: 0px 0px 17px 7px $postcardShadowBG;
-
+  transition: 0.6s;
   p {
-    font-size: 1.4em;
+    font-size: 1.1em;
   }
+}
+
+.postcard:hover {
+  -webkit-box-shadow: 0px 0px 17px 7px $postcardShadowBG2;
+  box-shadow: 0px 0px 17px 7px $postcardShadowBG2;
 }
 
 .noselect {

@@ -22,7 +22,7 @@ export const Post = (props: PostProp) => {
                 color: "#0b2661",
               }}
             >
-              {!text.heading ? null : text.heading}
+            { !text.heading ? null : text.heading }
             </h1>
             <p>{!other ? null : text.body}</p>
           </>

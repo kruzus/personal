@@ -1,19 +1,30 @@
-//TODO
-export const useAxios = async () => {
-  //re use fetch so we dont ahve to reuse logic.
-  /*Idea: 
-  
-    const {data, error} = useAxios(
-    {
-        path: "github.com/api/users",
-        config: {
-            ...Data
-        }
-    }    
-    )
 
-    */
-  const data = { data: "Data" };
-  const err = { err: "error" };
-  return { data, err };
+export const useAxios = async (settings: useAxiosProp) => {
+
+  const {url, config} = settings
+
+
+  const items = [`data: URL IS ${url}`, new Error("just an error"), true];
+
+  const [data, error, isPending] = items;
+
+
+  return { data, error, isPending };
 };
+
+
+
+
+//useAxios hook typings.
+
+type useAxiosProp = {
+  url: string;
+  config: useAxiosConfigProp
+}
+
+type useAxiosConfigProp = {
+  settings?: {
+    url?: string;
+    method?: string;
+  }
+}
