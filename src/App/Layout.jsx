@@ -4,6 +4,7 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
+
 import { About } from "../views/About";
 import { Projects } from "../views/Projects";
 import { Home } from "../views/Home";
@@ -14,7 +15,6 @@ export const Layout = () => {
     <>
       <Router>
         <Navbar />
-
         <Switch>
           <Route exact path="/projects">
             <Projects />

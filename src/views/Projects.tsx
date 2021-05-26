@@ -1,5 +1,6 @@
 import { Wrapper } from "../components/shared/Wrapper";
 import { Post } from "../components/shared/Post";
+import { ProjectListCard } from "../components/shared/ProjectListCard";
 export const Projects = () => {
   return (
     <>
@@ -13,6 +14,7 @@ export const Projects = () => {
           open API's that lets me use their data without the API key.
           `}
         />
+        <ProjectListCard  />
       </Wrapper>
     </>
   );
