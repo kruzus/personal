@@ -1,7 +1,7 @@
 //TODO
-export const useAxios  = async () => {
-    //re use fetch so we dont ahve to reuse logic.
-    /*Idea: 
+export const useAxios = async () => {
+  //re use fetch so we dont ahve to reuse logic.
+  /*Idea: 
   
     const {data, error} = useAxios(
     {
@@ -12,9 +12,8 @@ export const useAxios  = async () => {
     }    
     )
 
-    */ 
-    const data = {data: "Data"}
-    const err  = {err: "error"}
-    return {data, err}
-
-}
+    */
+  const data = { data: "Data" };
+  const err = { err: "error" };
+  return { data, err };
+};

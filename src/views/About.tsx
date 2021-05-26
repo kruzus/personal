@@ -18,6 +18,7 @@ export const About = () => {
   Pellentesque habitant morbi tristique senectus et netus et malesuada 
   fames ac turpis egestas. Sed nec lacinia mauris, eu condimentum purus.
   Interdum et malesuada fames ac ante ipsum primis in faucibus.
+  
   `,
     },
     {

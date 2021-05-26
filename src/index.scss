@@ -10,13 +10,16 @@ html {
   box-sizing: border-box;
 }
 
+$postcardBG: rgb(246, 246, 246);
+$postcardShadowBG: #ebebeb;
+
 .postcard {
-  background-color: rgb(236, 236, 236);
+  background-color: $postcardBG;
   padding: 1rem;
   margin-bottom: 3rem;
 
-  -webkit-box-shadow: 0px 0px 17px 7px #e6e6e6;
-  box-shadow: 0px 0px 17px 7px #e6e6e6;
+  -webkit-box-shadow: 0px 0px 17px 7px $postcardShadowBG;
+  box-shadow: 0px 0px 17px 7px $postcardShadowBG;
 
   p {
     font-size: 1.4em;
@@ -31,10 +34,7 @@ html {
   -moz-user-select: none; /* Old versions of Firefox */
   user-select: none;
 }
-<<<<<<< HEAD
-=======
 
 .projectList {
   border: 1px solid black;
 }
->>>>>>> ee9a09c6969c4151303ec5f46e35482e07f28288
