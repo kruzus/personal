@@ -1,12 +1,18 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import "./style.scss";
 
 export const Navbar = () => {
+  const title = "Logo"
+  const SITE_TITLE = "kruzus' page"
+  useEffect(() => {
+    document.title = SITE_TITLE;
+  })
   return (
     <>
       <nav className="navcont noselect">
-        <h3 className="logo">Kruzus</h3>
+        <h3 className="logo">{ title} </h3>
         <div className="links">
           <Link className="item" to="/">
             Home
