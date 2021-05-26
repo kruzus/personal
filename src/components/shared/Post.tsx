@@ -7,13 +7,26 @@ export const Post = (props: PostProp) => {
           style={{
             fontSize: "2rem",
             color: "#0b2661",
-            textAlign: "center"
+            textAlign: "center",
           }}
         >
           {!heading ? "NOT SET" : heading}
         </h1>
         <p>{body}</p>
-        <p>{!other ? null : other}</p>
+
+        {other?.map((text) => (
+          <>
+            <h1
+              style={{
+                fontSize: "1.5rem",
+                color: "#0b2661",
+              }}
+            >
+              {!text.heading ? null : text.heading}
+            </h1>
+            <p>{!other ? null : text.body}</p>
+          </>
+        ))}
       </div>
     </>
   );
@@ -22,6 +35,10 @@ export const Post = (props: PostProp) => {
 type PostProp = {
   heading?: string;
   body?: string;
-  other?: string
-  
+  other?: PostType[];
+};
+
+type PostType = {
+  heading?: string;
+  body?: string;
 };
