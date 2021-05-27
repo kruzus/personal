@@ -12,6 +12,14 @@ export const Home = () => {
         <Post
           heading="Notice.."
           body="I will be adding stuff to my site. Here we go."
+          other={
+            [
+              {
+                heading: "welcome",
+                body: "awd"
+              }
+            ]
+          }
         />
       </Wrapper>
     </>

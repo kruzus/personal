@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./style.scss";
 
 export const Navbar = () => {
-  const title = "Logo"
+  const headertitle = "Logo"
   const SITE_TITLE = "kruzus' page"
   useEffect(() => {
     document.title = SITE_TITLE;
@@ -12,7 +12,7 @@ export const Navbar = () => {
   return (
     <>
       <nav className="navcont noselect">
-        <h3 className="logo">{ title} </h3>
+        <h3 className="logo">{ headertitle}</h3>
         <div className="links">
           <Link className="item" to="/">
             Home

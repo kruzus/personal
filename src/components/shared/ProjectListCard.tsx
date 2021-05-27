@@ -31,7 +31,9 @@ export const ProjectListCard = () => {
       <div className="projectList">
         test
         {data.map((item) => (
-          <ProjectItem project={item} key={item.id} />
+          <ProjectItem 
+          project={item} 
+          key={item.id} />
         ))}
       </div>
     </>
@@ -43,11 +45,11 @@ const ProjectItem = (props: ProjectProp) => {
 
   return (
     <>
-      {link}
+      { link }
       <br />
-      {title}
+      { title }
       <br />
-      {imageUrl}
+      { imageUrl }
       <br />
     </>
   );
