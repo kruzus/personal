@@ -9,12 +9,12 @@ export const useAxios = async (settings: useAxiosProp) => {
 //useAxios hook typings.
 type useAxiosProp = {
   url: string;
-  config: useAxiosConfigProp
-}
+  config: useAxiosConfigProp;
+};
 
 type useAxiosConfigProp = {
   settings?: {
     url?: string;
     method?: string;
-  }
-}
+  };
+};

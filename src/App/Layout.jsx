@@ -14,7 +14,7 @@ export const Layout = () => {
   return (
     <>
       <Router>
-        <Navbar  />
+        <Navbar />
         <Switch>
           <Route exact path="/projects">
             <Projects />

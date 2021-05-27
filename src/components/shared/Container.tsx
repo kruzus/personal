@@ -4,4 +4,4 @@
 //   //styles
 // `;
 //fix later.
-export {}
+export {};

@@ -10,7 +10,7 @@ export const Post = (props: PostProp) => {
             textAlign: "center",
           }}
         >
-          {!heading ? "NOT SET" : heading}
+          {!heading ? null : heading}
         </h1>
         <p>{body}</p>
 
@@ -22,7 +22,7 @@ export const Post = (props: PostProp) => {
                 color: "#0b2661",
               }}
             >
-            { !text.heading ? null : text.heading }
+              {!text.heading ? null : text.heading}
             </h1>
             <p>{!other ? null : text.body}</p>
           </>
@@ -30,15 +30,4 @@ export const Post = (props: PostProp) => {
       </div>
     </>
   );
-};
-
-type PostProp = {
-  heading?: string;
-  body?: string;
-  other?: PostType[];
-};
-
-type PostType = {
-  heading?: string;
-  body?: string;
 };
